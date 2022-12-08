@@ -80,7 +80,7 @@ a {
 /* Block dividers */
 
 .block-divider {
-    width: 75px;
+    width: 175px;
     height: 5px;
     border: 0;
     background-color: #444;
@@ -95,7 +95,7 @@ a {
 }
 
 .block-divider--short {
-    width: 35px;
+    width: 100px;
 }
 
 /* Jumbotron */
@@ -181,7 +181,9 @@ a {
 }
 
 /* Features */
-
+.features .page-header {
+    margin-bottom: 35px
+}
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -194,11 +196,11 @@ a {
 }
 
 .feature .btn {
-    background-color: white;
+    background-color: #d1931f;
     border-color: white;
     border-radius: 15px;
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: #000000;
 }
